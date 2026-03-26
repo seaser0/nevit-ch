@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nevit</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: #333;
+    }
+
+    .logo-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo-wrap img {
+      max-width: 340px;
+      width: 90vw;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 24px;
+      width: 100%;
+      text-align: center;
+      font-size: 0.78rem;
+      color: #aaa;
+    }
+
+    footer a {
+      color: #aaa;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #b00000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo-wrap">
+    <img src="logo.png" alt="Nevit Logo" />
+  </div>
+
+  <footer>
+    &copy; <span id="year"></span> Nevit &nbsp;|&nbsp;
+    <a href="/privacy.html">Privacy Policy</a> &nbsp;|&nbsp;
+    <a href="mailto:mischa@nevit.ch">Contact</a>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
