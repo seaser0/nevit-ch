@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Openclaw Calender – Nevit</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      max-width: 720px;
+      margin: 60px auto;
+      padding: 0 24px 80px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    a { color: #b00000; }
+
+    img.logo {
+      height: 40px;
+      margin-bottom: 40px;
+    }
+
+    h1 { font-size: 1.8rem; margin-bottom: 8px; color: #b00000; }
+    h2 { font-size: 1.1rem; margin: 28px 0 8px; }
+    p  { margin-bottom: 12px; }
+    ul { margin: 0 0 12px 24px; }
+    li { margin-bottom: 6px; }
+
+    .badge {
+      display: inline-block;
+      background: #b00000;
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 24px;
+    }
+
+    .card {
+      background: #f8f8f8;
+      border-left: 4px solid #b00000;
+      padding: 20px 24px;
+      border-radius: 4px;
+      margin: 24px 0;
+    }
+
+    .card h2 {
+      margin-top: 0;
+    }
+
+    .back {
+      display: inline-block;
+      margin-top: 40px;
+      font-size: 0.85rem;
+      color: #aaa;
+      text-decoration: none;
+    }
+    .back:hover { color: #b00000; }
+  </style>
+</head>
+<body>
+
+  <a href="/"><img class="logo" src="logo.png" alt="Nevit" /></a>
+
+  <span class="badge">Google OAuth App</span>
+
+  <h1>Openclaw Calender</h1>
+  <p><em>A personal AI assistant integration by Nevit</em></p>
+
+  <p>
+    <strong>Openclaw Calender</strong> is a Google OAuth application operated by Nevit
+    that enables the OpenClaw AI assistant to read and display Google Calendar events
+    for personal productivity purposes.
+  </p>
+
+  <div class="card">
+    <h2>What this app does</h2>
+    <p>
+      Openclaw Calender connects your Google Calendar to the OpenClaw AI assistant,
+      allowing it to:
+    </p>
+    <ul>
+      <li>Read your calendar events to provide daily briefings and reminders</li>
+      <li>Display upcoming appointments in the assistant's morning/evening summaries</li>
+      <li>Answer questions about your schedule in natural language</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Data usage &amp; privacy</h2>
+    <ul>
+      <li>Calendar data is accessed only on your behalf and solely to generate personal summaries</li>
+      <li>No calendar data is stored permanently or shared with third parties</li>
+      <li>Access tokens are held securely on your own infrastructure and never transmitted externally</li>
+      <li>The integration is strictly personal — one user, one account</li>
+    </ul>
+    <p>
+      This app's use of Google Calendar data is limited to displaying information
+      to you, the authenticated user. It complies with the
+      <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">
+        Google API Services User Data Policy</a>, including the Limited Use requirements.
+    </p>
+  </div>
+
+  <h2>Permissions requested</h2>
+  <ul>
+    <li><strong>Google Calendar (read-only)</strong> — to read your calendar events</li>
+  </ul>
+
+  <h2>Who operates this app</h2>
+  <p>
+    Openclaw Calender is operated by Nevit, a personal productivity project based in
+    Grenchen, Switzerland. It is not a commercial product and is not available to
+    the general public.
+  </p>
+  <p>
+    Contact: <a href="mailto:webmaster@nevit.ch">webmaster@nevit.ch</a>
+  </p>
+
+  <h2>Legal</h2>
+  <p>
+    <a href="/privacy.html">Privacy Policy</a> &nbsp;|&nbsp;
+    <a href="/terms.html">Terms of Service</a>
+  </p>
+
+  <a class="back" href="/">&larr; Back to nevit.ch</a>
+
+</body>
+</html>
